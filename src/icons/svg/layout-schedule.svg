@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="16" height="16"
+  viewBox="0 0 16 16">
+  <g style="mix-blend-mode:passthrough">
+    <g style="mix-blend-mode:passthrough"></g>
+    <g style="mix-blend-mode:passthrough">
+      <path d="M14,2L2,2L2,1L14,1L14,2Z" fill-rule="evenodd" fill-opacity="1" />
+    </g>
+    <g style="mix-blend-mode:passthrough">
+      <path d="M14,15L2,15L2,14L14,14L14,15Z" fill-rule="evenodd" fill-opacity="1" />
+    </g>
+    <g style="mix-blend-mode:passthrough">
+      <path
+        d="M12,1L4,1L4,4.5C4,6.70914,5.79086,8.5,8,8.5C10.20914,8.5,12,6.70914,12,4.5L12,1ZM5,4.5L5,2L11,2L11,4.5Q11,5.74264,10.12132,6.62132Q9.24264,7.5,8,7.5Q6.75736,7.5,5.87868,6.62132Q5,5.74264,5,4.5Z"
+        fill-rule="evenodd" fill-opacity="1" />
+    </g>
+    <g style="mix-blend-mode:passthrough" transform="matrix(1,0,0,-1,0,30)">
+      <path
+        d="M12,15L4,15L4,18.5C4,20.709139999999998,5.79086,22.5,8,22.5C10.20914,22.5,12,20.709139999999998,12,18.5L12,15ZM5,18.5L5,16L11,16L11,18.5Q11,19.74264,10.12132,20.62132Q9.24264,21.5,8,21.5Q6.75736,21.5,5.87868,20.62132Q5,19.74264,5,18.5Z"
+        fill-rule="evenodd" fill-opacity="1" />
+    </g>
+  </g>
+</svg>

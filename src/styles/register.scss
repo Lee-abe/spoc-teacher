@@ -1,0 +1,168 @@
+$fontsizebodysmall: 12px;
+$text-color-placeholder: rgba(0, 0, 0, 0.4);
+$text-color-link: #1d62db;
+$brand-color-disabled: rgba(29, 98, 219, 0.4);
+$font-size-bodySmall: 12px;
+// 公共样式
+.flex {
+  display: flex;
+}
+.link {
+  color: $text-color-link;
+  cursor: pointer;
+}
+.main {
+  width: 920px;
+  height: 540px;
+  background: #ffffff;
+  box-shadow: 0px 4px 40px 0px #ebeef4;
+  border-radius: 8px 8px 8px 8px;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  padding: 0;
+  font-size: 14px;
+  .left {
+    width: 374px;
+    // height: 540px;
+    background: linear-gradient(
+      180deg,
+      #ffffff 0%,
+      #ffffff 85%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    .text-center,
+    .el-carousel {
+      height: 100%;
+      .tu {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+  .right-form {
+    width: 546px;
+    padding: 39px 97px;
+    .tabs {
+      margin-bottom: 34px;
+      span {
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.4);
+        cursor: pointer;
+        &:last-child {
+          margin-left: 30px;
+        }
+      }
+      .active {
+        font-size: 20px;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.9);
+        line-height: 28px;
+        position: relative;
+      }
+      .active::after {
+        content: "";
+        position: absolute;
+        bottom: -8px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 30px;
+        height: 3px;
+        background: #1d62db;
+        border-radius: 1000px 1000px 1000px 1000px;
+      }
+    }
+  }
+  .agreement-box {
+    height: 24px;
+    align-items: center;
+    margin-bottom: 28px;
+    .agreement {
+      font-size: $fontsizebodysmall;
+      padding: 0 6px;
+      color: $text-color-placeholder;
+    }
+  }
+  .my-button {
+    width: 222px;
+  }
+  .register-button {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .toLogin {
+    color: $text-color-placeholder;
+  }
+}
+
+// 公共样式
+.small-hint {
+  font-size: 12px;
+  font-weight: 400;
+  color: #e37318;
+  line-height: 24px;
+  position: absolute;
+  bottom: -25px;
+  left: 12px;
+}
+.smallFont {
+  font-size: $font-size-bodySmall;
+  color: $text-color-placeholder;
+}
+.flex {
+  display: flex;
+}
+a {
+  color: $text-color-link;
+  cursor: pointer;
+}
+.el-form-item {
+  margin-bottom: 28px;
+}
+.el-input__wrapper {
+  border-radius: 2px !important;
+}
+.el-button {
+  border-radius: 2px !important;
+}
+// 弱
+.weak {
+  color: #d54941;
+}
+.weak-b {
+  background: #d54941 !important;
+}
+// 中
+.centre {
+  color: #e37318;
+}
+.centre-b {
+  background: #e37318 !important;
+}
+// 强
+.powerful {
+  color: #2ba471;
+}
+.powerful-b {
+  background: #2ba471 !important;
+}
+.my-popover {
+  border-radius: 2px !important;
+  padding: 8px 10px !important;
+  .popover-content {
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.6);
+    .warn {
+      width: 20px;
+      margin-right: 4px;
+    }
+  }
+  .el-popover.el-popper {
+    padding: 0 !important;
+  }
+}

@@ -1,0 +1,148 @@
+.container {
+  width: 1040px;
+  height: 796px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  .title {
+    display: flex;
+    margin: 40px 0 24px 56px;
+    align-items: center;
+    font-size: 20px;
+    height: 20px;
+  }
+  .lists {
+    padding: 0;
+    margin: 0 60px;
+    font-size: 14px;
+    li {
+      margin: 0;
+      padding: 0 16px;
+      border: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 80px;
+      border-bottom: 1px solid #e7e7e7;
+      .left {
+        display: flex;
+        align-items: center;
+        img {
+          height: 20px;
+          width: 20px;
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+  .tips {
+    display: flex;
+    height: 24px;
+    align-items: center;
+    margin: 16px 0 0 72px;
+    font-size: 12px;
+    color: #666;
+  }
+  .qrwrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    p {
+      margin: 0 0 8px;
+      padding: 0;
+      border: 0;
+    }
+    .tex1 {
+      color: rgba(0, 0, 0, 0.9);
+    }
+    .tex2 {
+      font-size: 12px;
+    }
+    .tex3 {
+      span {
+        color: #1d62db;
+        cursor: pointer;
+      }
+    }
+    .qrcode {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 120px;
+      height: 120px;
+      margin-bottom: 16px;
+      border: 1px solid #e7e7e7;
+      color: #fff;
+      font-size: 12px;
+      img {
+        width: 108px;
+        height: 108px;
+      }
+      .over,
+      .sucess,
+      .fail {
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        top: 0;
+        left: 0;
+      }
+      .over {
+        background: #000;
+        opacity: 0.6;
+      }
+      .sucess {
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+          margin-top: 20px;
+          width: 30px;
+          height: 30px;
+        }
+        .succ_tex {
+          height: 20px;
+          font-size: 14px;
+          margin: 8px 0 4px;
+        }
+      }
+      .fail {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+      }
+    }
+  }
+}
+.tr {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.foot {
+  text-align: right;
+}
+
+.verifyCode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 1px;
+  right: 0;
+  height: 30px;
+  min-width: 102px;
+  font-size: 12px;
+  border-left: 1px solid #dcdcdc;
+  cursor: pointer;
+  color: #000;
+}
+.unreal {
+  margin-bottom: 16px;
+}

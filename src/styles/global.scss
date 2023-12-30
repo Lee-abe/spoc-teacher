@@ -1,0 +1,20 @@
+@for $i from 1 through 5 {
+  .ellipsis--l#{$i} {
+    @if $i == 1 {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    } @else {
+      display: -webkit-box !important;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      word-break: break-all;
+      -webkit-line-clamp: $i;
+      -webkit-box-orient: vertical !important;
+    }
+  }
+}
+
+.border-box {
+  box-sizing: border-box;
+}
